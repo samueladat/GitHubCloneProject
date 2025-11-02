@@ -1,6 +1,0 @@
-# Append a line
-Add-Content README.md "`nLast line: feature branch edit."
-Add-Content README.md "`nLast line: main branch edit."
-
-# Create a simple file
-"This is a new feature." | Out-File -FilePath "feature.txt" -Encoding utf8
