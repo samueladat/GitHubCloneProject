@@ -4,3 +4,10 @@ Add-Content README.md "`nLast line: main branch edit."
 
 # Create a simple file
 "This is a new feature." | Out-File -FilePath "feature.txt" -Encoding utf8
+
+<<<<<<< main
+Last line: main branch edit.
+=======
+Last line: feature branch edit.
+>>>>>>> feature-greeting
+
