@@ -1,0 +1,7 @@
+Set-Location .\GitHubCloneProject
+
+# Create greetings.txt with the required text
+" Hello, this is a message from my cloned repository!" | Out-File -FilePath "greetings.txt" -Encoding utf8
+
+# Create README.md with the required text
+"This is the description of my repo" | Out-File -FilePath "README.md" -Encoding utf8
